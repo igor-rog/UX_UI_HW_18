@@ -2,7 +2,7 @@ body {
     background-color: #eeeeee;
  }
 
-
+ /* ------------------------------NAVBAR--------------------------------- */
 header {
     display: flex;
     justify-content: space-between;
@@ -11,7 +11,6 @@ header {
     color: #000000; 
     padding: 10px;
 }
-/* ------------------------------NAVBAR---------------------------------- */
 
 .logo img{
     width: 100px;
@@ -42,7 +41,9 @@ nav ul li {
 }
 
 
-nav ul li a {
+nav ul li a {    
+    font-family: 'Work Sans', sans-serif;
+    color: rgb(36, 36, 36);
     text-decoration: none;
     color: #000000;
     font-weight: bold;
@@ -97,7 +98,7 @@ nav ul li a:hover {
     max-width: 100%; 
 }
 
-.hero-text {
+.heroText {
     font-family: 'Montserrat', sans-serif;
     font-weight: 500;
     font-size: 2.5vh;
@@ -106,7 +107,7 @@ nav ul li a:hover {
     text-align: center; 
 }
 
-/* -----------------------------CONTENT-------------------------------- */
+/* -----------------------------MYWORK-------------------------------- */
 
 
 #content {
